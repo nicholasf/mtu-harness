@@ -16,7 +16,7 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "mtu-coding-exam": "github:nicholasf/mtu-coding-exam#npm-it",
+    "mtu-coding-exam": "github:nicholasf/mtu-coding-exam",
     "ts-node": "^10.9.2"
   }
 }
