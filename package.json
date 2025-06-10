@@ -1,0 +1,22 @@
+{
+  "name": "mtu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "clean": "rm -rf dist",
+    "rebuild": "npm run clean && npm run build",
+    "start": "NODE_OPTIONS='--loader ts-node/esm --no-warnings' ts-node src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "mtu-coding-exam": "github:nicholasf/mtu-coding-exam#npm-it",
+    "ts-node": "^10.9.2"
+  }
+}
